@@ -20,22 +20,24 @@ body {
 }
 #grid{
   display:grid;
-  grid-template-columns: 150px 1fr;
+  grid-template-columns: 150px 950px;
 }
 #grid ol{
   padding-left: 36px;
 }
 #article{
   padding-left: 24px;
+  word-wrap: break-word;
 }
-@media(max-width:800px){
+@media(max-width:1000px){
 #grid{
   display:block;
 }
 ol{
   border-right:none;
 }
-}
 #image{
-  padding: 36px;
+  padding: 0px;
+  width: auto;
+  max-width: 900px;
 }
